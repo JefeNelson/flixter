@@ -52,4 +52,11 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# This gem helps adds the NavBar
 gem 'bootstrap', '~> 4.0.0.alpha6'
+
+# This gem helps adds modals to our page
+gem 'simple_form'
+
+# This is for user authentication and account storage
+gem 'devise'
