@@ -61,7 +61,7 @@ gem 'simple_form'
 # This is for user authentication and account storage
 gem 'devise'
 
-# This is for uploading images and videos
+# This is for uploading images
 gem 'carrierwave', '~> 1.0'
 
 # This is for security when deploying to production
@@ -72,3 +72,6 @@ gem "fog"
 
 # This is for image manipulation
 gem "mini_magick"
+
+# This is for uploading videos
+gem 'carrierwave-aws'
