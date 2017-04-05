@@ -60,3 +60,12 @@ gem 'simple_form'
 
 # This is for user authentication and account storage
 gem 'devise'
+
+# This is for uploading images and videos
+gem 'carrierwave', '~> 1.0'
+
+# This is for security when deploying to production
+gem "figaro"
+
+# This is for access to Amazon AWS
+gem "fog"
