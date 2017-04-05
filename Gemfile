@@ -69,3 +69,6 @@ gem "figaro"
 
 # This is for access to Amazon AWS
 gem "fog"
+
+# This is for image manipulation
+gem "mini_magick"
