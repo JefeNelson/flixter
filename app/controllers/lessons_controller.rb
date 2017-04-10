@@ -9,7 +9,7 @@ class LessonsController < ApplicationController
   
   def require_authorized_for_current_lesson
     if !current_user.enrolled_in?(current_lesson.section.course)
-      redirect_to courses_path, :alert => 'Enrollment required for viewing lesson.'
+      redirect_to courses_path(current_lesson.section.course), :alert => 'Enrollment required for viewing lesson.'
     end
   end
   
@@ -17,5 +17,4 @@ class LessonsController < ApplicationController
   def current_lesson
     @current_lesson ||= Lesson.find(params[:id])
   end
-  
 end

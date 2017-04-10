@@ -75,3 +75,6 @@ gem "mini_magick"
 
 # This is for uploading videos
 gem 'carrierwave-aws'
+
+# This is for credit card use
+gem 'stripe'
