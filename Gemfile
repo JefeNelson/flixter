@@ -78,3 +78,6 @@ gem 'carrierwave-aws'
 
 # This is for credit card use
 gem 'stripe'
+
+# This is for switching positions of elements in a database
+gem 'ranked-model'
