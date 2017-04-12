@@ -81,3 +81,6 @@ gem 'stripe'
 
 # This is for switching positions of elements in a database
 gem 'ranked-model'
+
+# This is for using sortable, requires bundle install
+gem 'jquery-ui-rails'

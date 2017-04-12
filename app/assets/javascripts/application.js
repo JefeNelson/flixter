@@ -15,3 +15,4 @@
 //= require turbolinks
 //= bootstrap-sprockets
 //= require_tree .
+//= require jquery-ui
