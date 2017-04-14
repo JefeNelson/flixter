@@ -84,3 +84,6 @@ gem 'ranked-model'
 
 # This is for using sortable, requires bundle install
 gem 'jquery-ui-rails'
+
+# This is for the font awesome icons
+gem "font-awesome-rails"
