@@ -82,6 +82,10 @@ gem 'stripe'
 # This is for switching positions of elements in a database
 gem 'ranked-model'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
 # This is for using sortable, requires bundle install
 gem 'jquery-ui-rails'
 
